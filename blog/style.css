@@ -1,0 +1,101 @@
+/* Flexbox helper classes */
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* END FLEXBOX HELPER CLASSES */
+
+
+/* BODY GRADIENT BACKGROUND */
+body {
+    background: #60B0C0;
+    background: linear-gradient(90deg, rgba(96, 176, 192, 1) 0%, rgba(34, 133, 128, 1) 50%, rgba(12, 110, 58, 1) 100%);
+    width: 100%;
+}
+
+/* main css for left side*/
+.create-blogpost {
+    background-color: whitesmoke;
+    padding: 40px;
+    width: 40%;
+    margin: 10px;
+}
+
+#submitButton {
+    background-color: hwb(190 5% 65%);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+
+/* Main css for right side */
+.blogpost-content {
+    background-color: whitesmoke;
+    padding: 40px;
+    width: 40%;
+    margin: 10px;
+}
+
+.blogPost {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10%;
+    margin: 10px 0px;
+}
+
+/* MODAL STYLING */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

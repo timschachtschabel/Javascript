@@ -1,0 +1,54 @@
+.content {
+    width: 800px;
+    min-height: 500px;
+    margin: auto;
+    background-color: lavender;
+    margin-top: 80px;
+}
+
+#todoForm {
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+input {
+    width: 60%;
+    margin: 5px;
+    padding: 10px 0px;
+}
+
+#todoSubmit {
+    width: 61%;
+    color: white;
+    background-color: navy;
+    padding: 5px 0px;
+    font-size: 1.3rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    padding: 18px 0px;
+    margin: 8px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+li:hover {
+    background: grey;
+    cursor: pointer;
+}

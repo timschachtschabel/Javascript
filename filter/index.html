@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-content flex space-around">
+        <div class="filtersBlock">
+            <div class="header">
+                <h2>Filters</h2>
+            </div>
+            <div class="filtersContent" id="filtersContent">
+                <div class="colorFilters">
+                    <h3>Color</h3>
+                    <input type="checkbox" class="checkbox" id="purple" name="purple" value="purple">
+                    <label for="purple"> Purple</label><br>
+
+                    <input type="checkbox" class="checkbox" id="orange" name="orange" value="orange">
+                    <label for="orange"> Orange</label><br>
+
+                    <input type="checkbox" class="checkbox" id="blue" name="blue" value="blue">
+                    <label for="blue"> Blue</label><br>
+
+                    <input type="checkbox" class="checkbox" id="green" name="green" value="green">
+                    <label for="green"> Green</label><br>
+
+                    <input type="checkbox" class="checkbox" id="red" name="red" value="red">
+                    <label for="red"> Red</label><br>
+                </div>
+                <div class="shapeFilters">
+                    <h3>Shape</h3>
+                    <input type="checkbox" class="checkbox" id="square" name="square" value="square">
+                    <label for="square"> Square</label><br>
+
+                    <input type="checkbox" class="checkbox" id="circle" name="circle" value="circle">
+                    <label for="circle"> Circle</label><br>
+                </div> 
+                <div class="pricefilters flex column">
+                    <h3>Price range</h3>
+                    
+                    <label for="volume">Min price</label>
+                    <input type="range" id="minprice" name="minprice" min="0" max="100" />
+                    
+                    <label for="volume">Max price</label>                    
+                    <input type="range" id="maxprice" name="maxprice" min="0" max="100" />
+                </div>
+            </div>
+            <button class="reset" id="resetFilterButton">Reset filters</button>
+            <div class="footer"></div>
+        </div>
+        <div class="objectsBlock">
+            <div class="header">
+                <h2>Objects</h2>
+            </div>
+            <div class="objectsContent" id="objectsContent">
+                
+            </div>
+            <div class="footer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

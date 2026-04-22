@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    background: #9ba3c9;
+    background: linear-gradient(90deg, rgba(155, 163, 201, 1) 0%, #26265c 50%, rgba(13, 21, 41, 1) 100%);
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+/* website components css */
+
+.filtersBlock {
+    background: white;
+    width: 40%;
+}
+
+.objectsBlock {
+    background-color: white;
+    width: 40%;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid #26265c;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.main-content {
+    align-items: flex-start;
+}
+
+.filtersContent {
+    padding: 20px;
+}
+
+.objectsContent {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reset {
+    background-color: #26265c;
+    color: white;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+.footer {
+    min-height: 50px;
+    background-color: lightgray;
+    border-top: 3px solid #26265c;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.rectangle {
+  border-radius: 4px;
+}

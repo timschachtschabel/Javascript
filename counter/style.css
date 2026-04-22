@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+}
+
+.container {
+    margin: auto;  
+    text-align: center;
+}
+
+.title {
+    color: navy;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.counterView {
+    color: navy;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.controls {
+    justify-content: center;
+}
+
+.controls button {
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 20px;
+}

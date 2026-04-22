@@ -1,0 +1,74 @@
+.flex {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+.timer {
+    text-align: center;
+    flex-direction: row;
+    width: 60%;
+    font-size: 3em;
+    margin: auto;
+    justify-content: center;
+}
+
+.controls {
+ width: 60%;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+}
+
+#startbutton {
+    background-color:  green;
+    color: white;
+    font-weight: bold;
+}
+
+#stopbutton {
+    background-color:  yellow;
+    color: black;
+    font-weight: bold;
+    display: none;
+}
+
+#resetbutton {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+#roundTimes {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
