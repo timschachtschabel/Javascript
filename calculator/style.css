@@ -1,0 +1,72 @@
+/* flex helpers */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.calculator {
+    width: 80%;
+    margin: auto;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+#display {
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    align-content: center;
+    font-size: x-large;
+}
+
+.buttons {
+    width: 100%;
+}
+
+button {
+    font-size: x-large;
+    padding: 0;
+    margin-top: 4px;
+    flex: 1 1 0;
+    color: white;
+    background-color: #292c6d;
+    height: 64px;
+    outline: none;
+    width: 26%;
+    margin: auto;
+}
+
+.buttonRow {
+    width: 100%;
+    text-align: center;
+}
