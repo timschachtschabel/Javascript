@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.book-card {
+    margin-right: 40px;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+header {
+    background-color: black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+}
+
+.addNewBook {
+    border: 3px dashed black;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    width: 40%;
+}
