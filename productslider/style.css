@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    background-image: url(assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.slider {
+    background-color: rgba(139, 0, 0, 0.8);
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.left-control img{
+    display: inline-block;
+    width: 80%;
+    padding-left: 10px;
+}
+
+.right-control img{
+    display: inline-block;
+    width: 80%;
+    padding-right: 10px;
+}
+
+.left-control {
+    align-content: center;
+    width: 10%;
+}
+
+.right-control {
+    text-align: right;
+    align-content: center;
+    width: 10%;
+}
+
+.left-control:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.right-control:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.product img {
+    width: 90%;
+}
+
+.products {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+    justify-content: space-around;
+}
