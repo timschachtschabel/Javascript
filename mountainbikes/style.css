@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-content {
+    width: 90%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* Bike details styling */
+
+.bikeDetails {
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 80%);
+}
+
+#bikeImage {
+    position: absolute;
+    left: -40%;
+    top: 45%;
+}
+
+#orderButton {
+    color: white;
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: right;
+}
+
+.order {
+    text-align: right;
+}
+
+/* Bike scrollwheel styling */
+
+.bikeSelector {
+    height: 600px;
+    width: 600px;
+    align-self: flex-end;
+    margin-top: 40px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bikeSelector img {
+    position: absolute;
+}
+
+.wheelImage {
+    position: absolute;
+    transition: top 0.5s ease, left 0.5s ease, width 0.5s ease;
+}
+
+.pos-selected { 
+    top: -20%; left: -45%; width: 100%; 
+}
+.pos-second   { 
+    top: 5%;   left: 65%;  width: 40%; 
+}
+.pos-third    { 
+    top: 65%;  left: 65%;  width: 40%; 
+
+}
+.pos-fourth   { 
+    top: 65%;  left: 5%;  width: 40%; 
+}
